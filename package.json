@@ -1,0 +1,15 @@
+{
+  "name": "@commencis/starter-extensions",
+  "description": "Extension kits for Commencis Starters",
+  "keywords": [
+    "commencis",
+    "starter",
+    "extension",
+    "template",
+    "boilerplate"
+  ],
+  "private": true,
+  "author": "Commencis WEB Team",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.5.2"
+}
