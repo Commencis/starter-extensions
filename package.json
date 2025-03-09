@@ -15,10 +15,14 @@
   "packageManager": "pnpm@10.5.2",
   "scripts": {
     "lint:check:format": "prettier \"**/*.{json,md,hbs}\" --check",
-    "lint:fix:format": "prettier \"**/*.{json,md,hbs}\" --write"
+    "lint:fix:format": "prettier \"**/*.{json,md,hbs}\" --write",
+    "changeset": "changeset",
+    "version": "changeset version && pnpm install --no-frozen-lockfile"
   },
   "devDependencies": {
+    "@changesets/cli": "2.28.1",
     "@commencis/prettier-config": "2.0.0",
+    "@svitejs/changesets-changelog-github-compact": "1.2.0",
     "prettier": "3.5.3"
   }
 }
