@@ -12,7 +12,10 @@
   "author": "Commencis WEB Team",
   "license": "Apache-2.0",
   "type": "module",
-  "packageManager": "pnpm@10.5.2",
+  "engines": {
+    "node": ">= 22.14"
+  },
+  "packageManager": "pnpm@10.6.2",
   "scripts": {
     "lint:check:format": "prettier \"**/*.{json,md,hbs}\" --check",
     "lint:fix:format": "prettier \"**/*.{json,md,hbs}\" --write",
