@@ -13,13 +13,13 @@ importers:
         version: 2.28.1
       '@commencis/prettier-config':
         specifier: 2.0.0
-        version: 2.0.0(prettier@3.5.3)
+        version: 2.0.0(prettier@3.7.2)
       '@svitejs/changesets-changelog-github-compact':
         specifier: 1.2.0
         version: 1.2.0
       prettier:
-        specifier: 3.5.3
-        version: 3.5.3
+        specifier: 3.7.2
+        version: 3.7.2
 
   templates/markdown: {}
 
@@ -344,8 +344,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.5.3:
-    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+  prettier@3.7.2:
+    resolution: {integrity: sha512-n3HV2J6QhItCXndGa3oMWvWFAgN1ibnS7R9mt6iokScBOC0Ul9/iZORmU2IWUMcyAQaMPjTlY3uT34TqocUxMA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -596,9 +596,9 @@ snapshots:
       human-id: 4.1.1
       prettier: 2.8.8
 
-  '@commencis/prettier-config@2.0.0(prettier@3.5.3)':
+  '@commencis/prettier-config@2.0.0(prettier@3.7.2)':
     dependencies:
-      prettier: 3.5.3
+      prettier: 3.7.2
 
   '@manypkg/find-root@1.1.0':
     dependencies:
@@ -828,7 +828,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.5.3: {}
+  prettier@3.7.2: {}
 
   quansync@0.2.8: {}
 
