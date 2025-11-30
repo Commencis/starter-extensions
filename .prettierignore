@@ -1,0 +1,9 @@
+# lock file
+pnpm-lock.yaml
+
+# production
+dist/
+build/
+
+# generated
+CHANGELOG.md

@@ -9,23 +9,25 @@
     "boilerplate"
   ],
   "private": true,
-  "author": "Commencis WEB Team",
+  "author": "Commencis WFE Team <wfedevelopers@commencis.com> (https://commencis.com)",
   "license": "Apache-2.0",
   "type": "module",
   "engines": {
-    "node": ">= 22.14"
+    "node": ">=24.11"
   },
-  "packageManager": "pnpm@10.7.1",
+  "packageManager": "pnpm@10.24.0",
   "scripts": {
-    "lint:check:format": "prettier \"**/*.{json,md,hbs}\" --check",
-    "lint:fix:format": "prettier \"**/*.{json,md,hbs}\" --write",
+    "lint:check:format": "prettier \"**/*.{json,md,yaml,hbs}\" --check",
+    "lint:fix:format": "prettier \"**/*.{json,md,yaml,hbs}\" --write",
+    "lint": "pnpm run \"/^lint:check:.*/\"",
+    "lint:fix": "pnpm run \"/^lint:fix:.*/\"",
     "changeset": "changeset",
     "version": "changeset version && pnpm install --no-frozen-lockfile"
   },
   "devDependencies": {
-    "@changesets/cli": "2.28.1",
+    "@changesets/cli": "2.29.8",
     "@commencis/prettier-config": "2.0.0",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
-    "prettier": "3.5.3"
+    "prettier": "3.7.3"
   }
 }
