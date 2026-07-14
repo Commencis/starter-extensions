@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "2.29.8",
-    "@commencis/prettier-config": "2.0.0",
+    "@commencis/prettier-config": "3.3.0",
     "@svitejs/changesets-changelog-github-compact": "1.2.0",
     "prettier": "3.7.3"
   }
