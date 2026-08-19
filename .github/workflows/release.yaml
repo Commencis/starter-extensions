@@ -22,7 +22,7 @@ jobs:
         uses: commencis/js-toolkit/.github/actions/setup@main
 
       - name: Create Release Pull Request
-        uses: changesets/action@v1
+        uses: changesets/action@v2.1.1
         with:
           title: 'ci(release): version packages'
           commit: 'ci(release): version packages'
