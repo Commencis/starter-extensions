@@ -15,7 +15,7 @@
   "engines": {
     "node": ">=24.11"
   },
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@11.25.0",
   "scripts": {
     "lint:check:format": "prettier \"**/*.{json,md,yaml,hbs}\" --check",
     "lint:fix:format": "prettier \"**/*.{json,md,yaml,hbs}\" --write",
